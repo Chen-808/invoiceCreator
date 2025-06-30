@@ -58,9 +58,6 @@ function updateCostList(index){
 }
 
 function updateTotalcost(amount){
-    
     cost += amount
-    
     totalCost.textContent= `$ ${cost}`
-
 }
