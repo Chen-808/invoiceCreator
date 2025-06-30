@@ -1,0 +1,93 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+#header{
+    background-color: #3A69D2;
+    height: 100px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+#title{
+    margin: 0;
+    color: white;
+    font-family: "Inter", sans-serif;
+}
+
+#main-container{
+    background-color: #1F2937;
+    height: 100%;
+    padding-top: 25px;
+}
+
+#button-container{
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+    margin: 0px auto 30px auto;
+}
+
+#invoice-button-container{
+    display: flex;
+    width: 500px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.small-title{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    margin: 0px auto 0px auto;
+}
+
+#two-col-container{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    margin: 0px auto 10px auto;
+    border-bottom: 1px solid #D1D4F4 ;
+}
+
+#invoice-button{
+    margin: 5px auto;
+    width: 400px;
+    height: 35px;
+    background-color: #3A69D2;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-family: "Inter", sans-serif;
+}
+
+p, h3, h1{
+    color: white;
+    font-family: "Inter", sans-serif;
+}
+h1{
+    margin: 0;
+}
+
+.small-p{
+    font-size: 13px;
+    font-family: "Inter", sans-serif;
+}
+
+.tiny-p{
+    font-size: 12px;
+    font-family: "Inter", sans-serif;
+}
+
+.choreButton{
+    background-color: #D1D4F4;
+    border: none;
+    height: 40px;
+    border-radius: 5px;
+    width: 130px;
+    font-family: "Inter", sans-serif;
+    color: #4A4E74;
+}
+

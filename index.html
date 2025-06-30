@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div id="header">
+            <h2 id="title">Invoice creator</h2>
+            <p> Thanks for choosing GoodCorp, LLC! </p>
+        </div>
+        <div id="main-container">
+            <div id="button-container">
+                <button id="carButton" class="choreButton"> Wash car: 10$ </button>
+                <button id="lawnButton" class="choreButton"> Mow lawn: 20$ </button>
+                <button id="weedbutton" class="choreButton"> Pull weed: 30$ </button>
+            </div>
+            <div class="small-title">
+                <p class="small-p"> TASK </p>
+                <p class="small-p"> TOTAL </p>
+            </div>
+            <div id="two-col-container">
+                <div id="col-one">
+                    <ul id="chores-list">
+                    </ul>
+                    <!--h3> Wash car </h3>
+                    <h3> Mow lawn </h3>
+                    <h3> Pull weed </h3-->
+                </div>
+                
+                <div id="col-two">
+                    <ul id="amount-list">
+                    </ul>
+                    <!--p> $10 </p>
+                    <p> $20 </p>
+                    <p> $30 </p-->
+                </div>
+            </div>
+            <div class="small-title">
+                <p class="small-p"> NOTES </p>
+                <p class="small-p"> TOTAL AMOUNT </p>
+            </div>
+            <div class="small-title">
+                <p class="tiny-p"> We accept cash, credit card, paypal </p>
+                <h1 id="amountTotal"> $0 </h1>
+            </div>
+            <div id="invoice-button-container">
+                <button onclick="sendInvoice()" id="invoice-button"> Send invoice </button>
+            </div>
+            
+            
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
